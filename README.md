@@ -17,7 +17,9 @@ then use the desktop's Edit Widgets menu to add a Mac Disk Monitor widget.
 
 ## Security notice
 
-**This beta is not notarized by Apple. Gatekeeper may block it.**
+**This beta is ad hoc signed and is not notarized by Apple. Gatekeeper may block it.**
+The signature does not verify a developer identity. The personal Apple Development
+certificate and debug-symbol build paths were removed from these download copies.
 If you trust this download and macOS offers the option, go to
 **System Settings → Privacy & Security → Open Anyway** to approve this specific app.
 Do not disable Gatekeeper globally. If the option is unavailable or the app still
